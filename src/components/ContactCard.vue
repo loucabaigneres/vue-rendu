@@ -18,7 +18,7 @@ export default {
         callContact() {
             const now = new Date();
             const call = {
-                name: this.contact.name,
+                display: this.contact.name,
                 number: this.contact.number,
                 date: now.toLocaleDateString(),
                 time: now.toLocaleTimeString(),
