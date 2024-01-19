@@ -78,6 +78,7 @@ export default {
 }
 
 .number-display {
+    height: 50px;
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
